@@ -1,6 +1,6 @@
-FROM tiangolo/uwsgi-nginx:python3.7
+FROM danacr/uwsgi-nginx-arm64
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="mad.md"
 
 RUN pip install flask
 
